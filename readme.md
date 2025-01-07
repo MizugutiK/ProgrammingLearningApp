@@ -12,3 +12,6 @@
   - yarn(ターミナルでyarnと入力)をインストール
   - \ProgrammingLearningApp\nuxt-app> npm run dev で起動→テストが出てくればよい
     - npm run devがエラーが出る場合→packege.jsonからデバックをクリックで起動
+
+# docsフォルダ追加
+- Idea.mdにマインドマップを追記

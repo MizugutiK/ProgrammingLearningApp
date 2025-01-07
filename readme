@@ -8,5 +8,5 @@
 - Node.js(https://nodejs.org/en) をインストール
  - npx nuxi init を起動
  - yarn(ターミナルでyarnと入力)をインストール
- - npm run devで起動→テストが出てくればよい
+ - \ProgrammingLearningApp\nuxt-app> npm run dev で起動→テストが出てくればよい
   -npm run devがエラーが出る場合→packege.jsonからデバックをクリックで起動

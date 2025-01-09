@@ -17,5 +17,15 @@
 - Idea.mdにマインドマップを追記
 
 # PrimeVue追加
+UIコンポーネントが使える便利なもの
+→UIの統一化が簡単なので使用したい
+
 - npm install primevue, npm install --save-dev @primevue/nuxt-module,npm install @primevue/themes,npm install primeiconsを入れる
-- runしたときに緑のボタンが出ていればOK
+- runしたとき黒ボタンが出ていればOK
+- [公式サイト](https://primevue.org/) 
+
+# PrimeFlex追加
+Bootstrapみたいなもの
+
+- npm install primeflex　を入れる
+- 入っているが色関係がPrimeVewと競合している気がする

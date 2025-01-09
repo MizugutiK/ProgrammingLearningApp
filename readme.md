@@ -15,3 +15,7 @@
 
 # docsフォルダ追加
 - Idea.mdにマインドマップを追記
+
+# PrimeVue追加
+- npm install primevue, npm install --save-dev @primevue/nuxt-module,npm install @primevue/themes,npm install primeiconsを入れる
+- runしたときに緑のボタンが出ていればOK

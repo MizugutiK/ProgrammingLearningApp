@@ -29,3 +29,8 @@ Bootstrapみたいなもの
 
 - npm install primeflex　を入れる
 - 入っているが色関係がPrimeVewと競合している気がする
+- [公式サイト](https://primeflex.org/)
+
+# componentの使用例を追加
+- app.vueを親としてcomponentファイル内のsanple.vueを子コンポーネントとして使用
+  - テキストボックスに入っている文字をボタンクリックしたら別の個所に表示する仕組みを分けただけ

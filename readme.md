@@ -1,6 +1,5 @@
 # タスク
-- PrimeFlexのバックグラウンドカラーを使えるように調整
-  - Primevueとも調整必須？
+- Primevueのテーマカラーを調査
 ---
 やったこと
 
@@ -32,3 +31,16 @@ Bootstrapみたいなもの
 # componentの使用例を追加
 - app.vueを親としてcomponentファイル内のsanple.vueを子コンポーネントとして使用
   - テキストボックスに入っている文字をボタンクリックしたら別の個所に表示する仕組みを分けただけ
+
+# PrimeFlexのバックグラウンドカラー関連の調査
+- 公式の色付きのサンプルはcssで設定しているっぽい( bg-primary 部分)
+　→コピペしても色関係は反映されない
+  - cssファイルに記載すれば使えるが現状保留
+
+# PrimeVueのテーマ設定に関する調査
+- Primevueには公式が提示しているプリセットが存在(Aura、Material、Lara等)
+  - Auraスタイルは緑が中心の色(Vueの色)
+- definePreset でプリセットをカスタマイズできる
+  - [詳細](https://primevue.org/theming/styled/#customization)
+- 現在反映させているカラー等はカスタマイズプリセット[ノワールモード](https://primevue.org/theming/styled/#noir)
+- うまく使えばカラーパレットとして色を自動で反映してくれるはず
